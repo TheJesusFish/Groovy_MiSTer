@@ -7,6 +7,11 @@
 // SharpMz support
 #include "support/sharpmz/sharpmz.h"
 
+// Apple 2 support
+#include "support/a2/dsk2nib_lib.h"
+// Apple IIgs disk integration
+#include "support/a2/iigs_disk.h"
+
 // Archie support
 #include "support/archie/archie.h"
 
@@ -18,6 +23,9 @@
 
 // SNES  support
 #include "support/snes/snes.h"
+
+// MegaDrive  support
+#include "support/megadrive/mdplus.h"
 
 // N64  support
 #include "support/n64/n64.h"
@@ -37,11 +45,18 @@
 // C64 support
 #include "support/c64/c64.h"
 
+// Atari 8bit support
+#include "support/atari8bit/atari800.h"
+#include "support/atari8bit/atari5200.h"
+
 // PCECD  support
 #include "support/pcecd/pcecd.h"
 
 // PSX support
 #include "support/psx/psx.h"
+
+// CD-i support
+#include "support/cdi/cdi.h"
 
 // UEF support
 #include "support/uef/uef_reader.h"
@@ -53,5 +68,8 @@
 #include "support/n64/n64.h"
 #include "support/n64/n64_joy_emu.h"
 
-// GROOVY support
+// 3DO  support
+#include "support/3do/3do.h"
+
+// Groovy support
 #include "support/groovy/groovy.h"
